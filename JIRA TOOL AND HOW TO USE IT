@@ -1,0 +1,197 @@
+Jira is a tool used by software teams to track work, bugs, and tasks.
+Think of it like a digital to-do list for a whole team.
+
+Example:
+
+Developer finds a bug → creates a ticket in Jira
+
+Team member works on it → updates the status
+
+Manager tracks progress → through boards and reports
+------------------------------------------------------------->
+Very Simple Example (Imagine Your Work Day)
+-------------------------------------------------------------->
+Suppose your manager says:
+
+“Fix login issue in the app”
+
+In Jira it will look like a ticket.
+
+Ticket Example
+
+Title: Fix login API failure
+Description: Users cannot login when password contains special characters
+Assignee: You
+Status: To Do → In Progress → Done
+
+You open the ticket → work → update status.
+
+
+
+
+
+
+----------------------------->
+Main Things in Jira (Only 5 You Must Know)
+1️⃣ Issue / Ticket
+
+This is a task.
+
+Examples:
+
+Fix bug
+
+Build feature
+
+Write API
+
+Investigate error
+
+Types:
+
+Bug
+
+Task
+
+Story
+
+Epic (big feature)
+2️⃣ Board
+
+A board shows all tasks visually.
+
+Columns usually:
+
+To Do
+In Progress
+In Review
+Done
+
+You simply drag the task to next column when progress changes.
+
+Example:
+
+Login Bug
+To Do → In Progress → Done
+
+3️⃣ Sprint
+
+If team follows Agile / Scrum, work happens in 2 weeks cycles.
+
+Example Sprint:
+
+Sprint 1
+Duration: 2 weeks
+
+Tasks:
+Fix login bug
+Create payment API
+Improve UI
+
+You pick tasks from Backlog → Sprint
+
+4️⃣ Backlog
+
+Backlog = list of all future tasks
+
+Think of it like:
+
+Future work list
+
+Manager or product owner decides what goes into sprint.
+
+5️⃣ Workflow (Status changes)
+
+Example workflow:
+
+To Do
+ ↓
+In Progress
+ ↓
+Code Review
+ ↓
+Testing
+ ↓
+Done
+
+You only change the status while working.
+
+What YOU Will Actually Do Daily (Reality)
+
+When working in a company:
+
+Morning
+
+Open Jira
+
+See tickets assigned to you
+
+Start working
+
+Change status → In Progress
+
+While working
+
+Add comments like:
+
+Investigating the issue.
+Root cause found in auth service.
+Fix in progress.
+After finishing
+Push code
+Create pull request
+Move ticket → Code Review
+After approval
+
+Move to:
+
+Done
+Basic Things You Must Learn (Very Easy)
+
+Create ticket
+
+Assign ticket
+
+Change status
+
+Add comment
+
+Attach screenshot / logs
+
+That's 90% of Jira usage.
+
+Example Ticket
+Title: Fix payment failure
+
+Description:
+Users getting 500 error while making payment.
+
+Steps to reproduce:
+1. Login
+2. Add product
+3. Click pay
+
+Expected:
+Payment success
+
+Actual:
+500 error
+
+Priority: High
+Assignee: Srivas
+One Real Tip (Important for Your Career)
+
+Many developers lose reputation because they don't update Jira.
+
+Always update:
+
+Started working
+Issue found
+Fix done
+Waiting for review
+
+Managers track progress through Jira.
+
+
+
+
